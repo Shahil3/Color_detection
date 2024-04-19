@@ -1,0 +1,1 @@
+/Users/shahil/AndroidStudioProjects/colordetection/opencv/build/intermediates/cxx/Debug/2o554d35/obj/x86

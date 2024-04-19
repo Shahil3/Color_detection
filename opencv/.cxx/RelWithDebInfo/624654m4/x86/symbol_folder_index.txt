@@ -1,0 +1,1 @@
+/Users/shahil/AndroidStudioProjects/colordetection/opencv/build/intermediates/cxx/RelWithDebInfo/624654m4/obj/x86

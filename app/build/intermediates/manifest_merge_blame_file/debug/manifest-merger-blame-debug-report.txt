@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.colordetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml
+10    <!-- Camera permission -->
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:5:5-65
+11-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:5:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:7:5-60
+13-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:7:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- Internet permission -->
+14-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:8:5-70
+14-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:8:19-67
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:9:22-64
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.colordetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.colordetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:11:5-33:19
+24        android:allowBackup="true"
+24-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] /Users/shahil/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:13:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:14:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.ColorDetection" >
+35-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:19:9-52
+36        <activity
+36-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.colordetection.firstPage"
+37-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:22:13-38
+38            android:exported="false" />
+38-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:23:13-37
+39        <activity
+39-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:24:9-32:20
+40            android:name="com.example.colordetection.MainActivity"
+40-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:25:13-41
+41            android:exported="true" >
+41-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:26:13-36
+42            <intent-filter>
+42-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:27:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:28:17-69
+43-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:30:17-77
+45-->/Users/shahil/AndroidStudioProjects/colordetection/app/src/main/AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.colordetection.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/shahil/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shahil/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shahil/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shahil/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
