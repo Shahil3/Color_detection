@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/color_detection.iml" filepath="$PROJECT_DIR$/.idea/modules/color_detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/color_detection.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/color_detection.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/color_detection.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/color_detection.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/color_detection.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/color_detection.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/color_detection.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/color_detection.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/opencv/color_detection.opencv.unitTest.iml" />
+    </modules>
+  </component>
+</project>
